@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+/*html {
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+}*/
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url('./images/mountain_sunset.jpg');
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  max-width: 100%;
+}
+
+.key {
+  border: .4rem solid #778899;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.pressed {
+  transform: scale(1.1);
+  border-color: #FFA07A;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+kbd {
+  display: block;
+  font-size: 2rem;
+}
+
+.sound {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #FFB6C1;
+}
