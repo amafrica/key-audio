@@ -20,6 +20,7 @@ body {
   background-repeat: no-repeat;
   background-size: auto 100%;
   max-width: 100%;
+  height: -webkit-fill-available;
 }
 
 .key {
